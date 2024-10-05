@@ -13,6 +13,6 @@ contactForm.addEventListener("submit", function(e){
         mode: "no-cors",
     }).then(() => {
         //url thankyou
-        window.location.href="/thankyou.html";
+        window.location.href="thankyou.html";
     }).catch((e) => alert("alert occured"));
 });
