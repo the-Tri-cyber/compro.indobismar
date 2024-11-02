@@ -3,18 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icon title -->
     <link rel="icon" href="dist/img/logo.jpeg" type="image/jpeg">
+
+    <!-- dist CSS file -->
     <link rel="stylesheet" href="dist/output.css">
+
+    <!-- aos file -->
+    <link rel="stylesheet" href="assets/aos/dist/aos.css">
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
+
+    <!-- font awesome cdn -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">  -->
+
     <title>Company Profile PT. INDO BISMAR</title>
 </head>
 <body>
     <!-- location section start -->
-        <div id="anouncement" class="flex items-center justify-between gap-4 bg-primary-600 px-4 py-3 text-white">
-            <p class="text-sm font-semibold pl-10">
-            Location:
-            <a href="https://maps.app.goo.gl/dmkrS5mayCYEUh6Z6" class="inline-block hover:underline" target="_blank">Jl. Bendul Merisi Selatan XI No.59-61, Bendul Merisi, Kec. Wonocolo, Surabaya, Jawa Timur 60239</a>
-            </p>
-        
+        <div id="anouncement" class="flex items-center justify-between gap-2 bg-primary-600 px-4 text-white">
+            <!-- sosmed -->
+            <div class="flex justify-center items-center">
+                <!-- instagram -->
+                <a href="https://www.instagram.com/indobismar/?hl=id" class="ml-12 px-2 py-1 my-2 mx-1 rounded-md hover:bg-gray-100 group">
+                    <div class="group-hover:text-primary-600">
+                        <i class="fa-solid fa-lg fab fa-instagram"></i>
+                    </div>
+                </a>
+                <!-- facebook -->
+                <a href="https://www.facebook.com/ptindobismargroup" class="px-2 py-1 my-2 mx-1 rounded-md hover:bg-gray-100 group">
+                    <div class="group-hover:text-primary-600">
+                        <i class="fa-solid fa-lg fab fa-facebook"></i>
+                    </div>
+                </a>
+                <!-- tiktok -->
+                <a href="https://www.tiktok.com/@officialindobismar" class="px-2 py-1 my-2 mx-1 rounded-md hover:bg-gray-100 group">
+                    <div class="group-hover:text-primary-600">
+                        <i class="fa-solid fa-lg fab fa-tiktok"></i>
+                    </div>
+                </a>
+                <!-- youtube -->
+                <a href="https://www.youtube.com/@PTINDOBISMARGROUP" class="px-2 py-1 my-2 mx-1 rounded-md hover:bg-gray-100 group">
+                    <div class="group-hover:text-primary-600">
+                        <i class="fa-solid fa-lg fab fa-youtube"></i>
+                    </div>
+                </a>
+            </div>
+
+            <!-- link -->
+            <div class="flex">
+                <!-- location -->
+                <div class="text-sm font-semibold italic">
+                    <a href="https://maps.app.goo.gl/dmkrS5mayCYEUh6Z6" class="inline-block hover:underline" target="_blank">
+                        <i class="fa-solid fa-lg fa-location-dot"></i>
+                        Location
+                    </a>
+                </div>
+                <!-- admin -->
+                <div class="text-sm font-semibold italic pl-10">
+                    <a href="https://wa.me/6283145319592" class="inline-block hover:underline" target="_blank">
+                        <i class="fa-solid fa-lg fab fa-whatsapp"></i>
+                        Admin IndoBismar
+                    </a>
+                </div>
+                <!-- education -->
+                <div class="text-sm font-semibold italic pl-10">
+                    <a href="https://bismareducation.com/" class="inline-block hover:underline" target="_blank">
+                        <i class="fa-solid fa-lg fas fa-graduation-cap"></i>
+                        Bismar Education
+                    </a>
+                </div>
+            </div>
+            
+            <!-- close -->
             <button
             id="btnAn"
             aria-label="Dismiss"
@@ -32,50 +94,85 @@
     <!-- location section end -->
 
     <!-- navbar section start -->
-    <nav class="bg-white dark:bg-gray-800 antialiased sticky top-0 z-50">
-        <div class="max-w-screen-xl px-4 mx-auto 2xl:px-0 py-4 transition-all">
-            <div class="flex items-center justify-between">
-                <div class="flex justify-between items-center space-x-3">
-                    <div class="flex space-x-3">
-                        <a href="#" title="" class="">
-                            <img class="block w-auto h-8 dark:hidden" src="dist/img/logo2-transparent.png" alt="">
-                        </a>
-                        <h2 class="text-2xl text-gray-800 font-extrabold uppercase">indo <span class="text-rose-500">bismar</span></h2>
+        <nav class="bg-gray-100 border-b dark:bg-gray-800 antialiased sticky top-0 z-50">
+            <div class="max-w-screen-xl px-4 mx-auto 2xl:px-0 transition-all">
+                <div class="flex items-center justify-between">
+                    <div class="flex justify-between items-center space-x-3">
+                        <div class="flex space-x-3">
+                            <a href="#" title="" class="">
+                                <img class="block w-auto h-8 dark:hidden" src="dist/img/logo2-transparent.png" alt="">
+                            </a>
+                            <h2 class="text-2xl text-gray-800 font-extrabold uppercase">indo <span class="text-rose-500">bismar</span></h2>
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="hidden text-lg md:flex items-center justify-end gap-3 md:gap-2 lg:gap-6 py-3 sm:justify-end">
+                            <li>
+                            <a href="#" title="" class="flex text-lg font-bold hover:bg-gray-300 p-2 hover:rounded-lg text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+                                Home
+                            </a>
+                            </li>
+                            <li class="shrink-0">
+                            <a href="#sejarah" title="" class="flex text-lg font-bold hover:rounded-lg hover:bg-gray-300 p-2 text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+                                Sejarah
+                            </a>
+                            </li>
+                            <li class="shrink-0">
+                            <a href="#founder" title="" class="flex text-lg font-bold hover:bg-gray-300 p-2 hover:rounded-lg text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+                                Founder
+                            </a>
+                            </li>
+                            <li class="shrink-0">
+                            <a href="#ors" title="" class="text-lg font-bold hover:bg-gray-300 p-2 hover:rounded-lg text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+                                Our Retail Store
+                            </a>
+                            </li>
+                            <li class="shrink-0">
+                            <a href="#our_team" title="" class="text-lg font-bold hover:bg-gray-300 p-2 hover:rounded-lg text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+                                Team
+                            </a>
+                            </li>
+                            <li class="shrink-0">
+                            <a href="#contact" title="" class="text-lg font-bold hover:bg-gray-300 p-2 hover:rounded-lg text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+                                Contact
+                            </a>
+                            </li>
+                        </ul>
+
+                        <!-- hamburger -->
+                        <div class="flex items-center lg:space-x-2">
+                            <button type="button" data-collapse-toggle="ecommerce-navbar-menu-1" aria-controls="ecommerce-navbar-menu-1" aria-expanded="false" class="inline-flex md:hidden items-center justify-center hover:bg-gray-100 rounded-md dark:hover:bg-gray-700 p-2 text-gray-900 dark:text-white">
+                                <span class="sr-only">
+                                Open Menu
+                                </span>
+                                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
+                                </svg>                
+                            </button>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <ul class="hidden text-lg md:flex items-center justify-end gap-6 md:gap-8 py-3 sm:justify-end">
-                        <li>
-                        <a href="#" title="" class="flex text-lg font-bold hover:underline hover:bg-gray-300 p-2 hover:rounded-lg hover:underline-offset-4 text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
-                            Home
-                        </a>
-                        </li>
-                        <li class="shrink-0">
-                        <a href="#sejarah" title="" class="flex text-lg font-bold hover:underline hover:bg-gray-300 p-2 hover:rounded-lg hover:underline-offset-4 text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
-                            Sejarah
-                        </a>
-                        </li>
-                        <li class="shrink-0">
-                        <a href="#founder" title="" class="flex text-lg font-bold hover:underline hover:bg-gray-300 p-2 hover:rounded-lg hover:underline-offset-4 text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
-                            Founder
-                        </a>
-                        </li>
-                        <li class="shrink-0">
-                        <a href="#ors" title="" class="text-lg font-bold hover:underline hover:bg-gray-300 p-2 hover:rounded-lg hover:underline-offset-4 text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
-                            Our Retail Store
-                        </a>
-                        </li>
-                        <li class="shrink-0">
-                        <a href="#our_team" title="" class="text-lg font-bold hover:underline hover:bg-gray-300 p-2 hover:rounded-lg hover:underline-offset-4 text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
-                            Our Team
-                        </a>
-                        </li>
-                        <li class="shrink-0">
-                        <a href="#contact" title="" class="text-lg font-bold hover:underline hover:bg-gray-300 p-2 hover:rounded-lg hover:underline-offset-4 text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
-                            Contact Us
-                        </a>
-                        </li>
-
+              
+                <div id="ecommerce-navbar-menu-1" class="transition-all duration-200 text-center bg-gray-50 dark:bg-gray-700 dark:border-gray-600 border border-gray-200 rounded-lg py-3 hidden px-4 mt-4">
+                    <ul class="text-gray-900 dark:text-white text-sm font-medium space-y-3 duration-300">
+                    <li>
+                        <a href="#" class="hover:text-primary-700 dark:hover:text-primary-500">Home</a>
+                    </li>
+                    <li>
+                        <a href="#sejarah" class="hover:text-primary-700 dark:hover:text-primary-500">Sejarah</a>
+                    </li>
+                    <li>
+                        <a href="#founder" class="hover:text-primary-700 dark:hover:text-primary-500">Founder</a>
+                    </li>
+                    <li>
+                        <a href="#ors" class="hover:text-primary-700 dark:hover:text-primary-500">Our Retail Store</a>
+                    </li>
+                    <li>
+                        <a href="#our_team" class="hover:text-primary-700 dark:hover:text-primary-500">Team</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="hover:text-primary-700 dark:hover:text-primary-500">Contact</a>
+                    </li>
                     </ul>
                 </div>
             </div>
@@ -83,14 +180,14 @@
     <!-- navbar section end -->
 
     <!-- CTA section start -->
-        <section class="overflow-hidden bg-gray-50 md:grid md:grid-cols-2 md:items-center">
+        <section class="overflow-hidden bg-gray-50 md:grid md:grid-cols-2 md:items-center pb-10">
             <div class="p-8 md:p-12 lg:px-16 lg:py-24">
-            <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+            <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
                 <h2 class="text-lg font-bold text-gray-700 md:text-xl">Company Profile 
                 </h2>
                 <h2 class="text-3xl font-bold uppercase text-rose-600 hover:text-rose-700 md:">pt. indo bismar</h2>
         
-                <p class="hidden text-gray-500 md:mt-4 md:block">
+                <p class="hidden text-xl text-gray-700 md:mt-4 md:block">
                 PT. INDO BISMAR adalah perusahaan multi produk yang bergerak dibidang penjualan grosir juga retail laptop, komputer, smartphone, dan peralatan IT lainnya.
                 </p>
         
@@ -106,42 +203,37 @@
             </div>
         
             <img
+            data-aos="fade-left"
+            data-aos-delay="200"
+            data-aos-duration="1000"
             alt=""
-            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2uNuukJ-Jmmrz3XOKD-sWSVHRkqlHsvjT065Y73ODN_n7J2f2Gf8KnIGL_IpFFpa6EIemQ2nOedwxGtME2jRqLhjrEe13PH2gqIE3xJCki4ws2WWXPDaMnuVGmdQ5aL-OIBs9Zke6O1Yu/w1200-h630-p-k-no-nu/PUSAT-700x466.jpg"
+            src="dist/img/bismar.jpeg"
             class="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]"
             />
         </section>
     <!-- CTA section end -->
 
     <!-- sejarah section start -->
-        <div id="sejarah" class="py-10 text-center bg-gray-50">
-            <h2 class="text-4xl py-10 capitalize font-extrabold lg:text-5xl text-rose-600">sejarah</h2>
-            <div class="flex align-items-center justify-center">
-                <p class="px-10 text-gray-500 text-center max-w-4xl"><span class="text-rose-600 font-semibold">PT. INDO BISMAR</span> adalah perusahaan multi produk yang bergerak dibidang penjualan grosir juga retail laptop, komputer, smartphone, dan peralatan IT lainnya. PT. Indo Bismar sendiri didirikan pada tahun 2000 di Surabaya. Di tahun 2014 kami memulai melakukan pemasaran multi produk termasuk smartphone dan melakukan pembukaan cabang-cabang retail di berbagai kota di Jawa Timur & Jawa Tengah, yang sampai dengan saat ini sudah mencapai 24 cabang, dengan kantor pusat yang berada di Surabaya.</p>
+        <div id="sejarah" class="pt-40 pb-20 text-center bg-gray-50">
+            <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                <h2 class="text-4xl pt-20 pb-10 capitalize font-extrabold lg:text-5xl text-rose-600 ">sejarah</h2>
+                <div class="flex align-items-center justify-center">
+                    <p class="px-10 text-gray-700 text-lg text-center max-w-4xl"><span class="text-rose-600 font-semibold">PT. INDO BISMAR</span> adalah perusahaan multi produk yang bergerak dibidang penjualan grosir juga retail laptop, komputer, smartphone, dan peralatan IT lainnya. PT. Indo Bismar sendiri didirikan pada tahun 2000 di Surabaya. Di tahun 2014 kami memulai melakukan pemasaran multi produk termasuk smartphone dan melakukan pembukaan cabang-cabang retail di berbagai kota di Jawa Timur & Jawa Tengah, yang sampai dengan saat ini sudah mencapai 24 cabang, dengan kantor pusat yang berada di Surabaya.</p>
+                </div>
             </div>
         </div>
     <!-- sejarah section end -->
 
     <!-- founder section start -->
         <section id="founder" class="overflow-hidden p-10 bg-gray-50 text-center md:grid md:grid-cols-2 relative sm:items-center">
-            <img alt="" src="dist/img/founder.png" class="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px] transition-all duration-500 hover:scale-110" />
+            <img alt="" src="dist/img/founder.png" class="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px] transition-all duration-500 hover:scale-110" data-aos="fade-up-right" data-aos-delay="200" />
             <div class="p-8 md:p-12 lg:px-16 lg:py-24">
-                <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+                <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right" data-aos="fade-up-left" data-aos-delay="200">
                     <h2 class="text-4xl font-extrabold capitalize text-rose-600 lg:text-5xl">founder</h2>
                     <h3 class="text-lg font-semibold text-gray-700 py-3">Dr. H. Siswanto, S.Sos., M.M.</h3>
                     
-                    <p class="text-gray-500 md:mt-4 md:block text-balance text-center ">
-                    Pak Siswanto mulai merintis Indo Bismar mulai sejak tahun 2000. Pada awalnya, ia memilih usaha bergerak di bidang teknologi informasi seperti komputer jinjing atau laptop. Sejak tahun 2014, Pak Siswanto memulai pemasaran multi produk termasuk smartphone melalui pembukaan cabang-cabang retail diberbagai kota di Jawa Tengah & Jawa Timur. <span class="font-semibold">Berikut pencapaian Pak Siswanto: </span>
-                    <ul class="list-none text-center text-gray-500 italic py-4 hover:list-disc">
-                        <li>CEO PT. Indo Bismar Group</li>
-                        <li>Ketua Pembina Yayasan anak yatim piatu Bismar Al-Mustaqim</li>
-                        <li>Ketua Organisasi Ikatan Persaudaraan Haji Indonesia (IPHI) Surabaya</li>
-                        <li>Wasek Himpunan Pengusaha Nahdliyin (HPN) Surabaya</li>
-                        <li>Ketua Umum Ikatan Alumni UNTAG Surabaya</li>
-                        <li>Ketua Takmir masjid Nurul Iman Surabaya</li>
-                        <li>Ketua Umum PEVINDO (Perkumpulan Pengusaha Peduli Vokasi Indonesia)</li>
-                        <li>Peraih DUDI Award KEMENDIKBUD RISTEK (Kementrian Pendidikan dan Kebudayaan Riset Teknologi) 15 Desember 2021.</li>
-                    </ul>
+                    <p class="text-gray-700 text-lg md:mt-4 md:block text-balance text-center ">
+                    Pak Siswanto mulai merintis Indo Bismar mulai sejak tahun 2000. Pada awalnya, ia memilih usaha bergerak di bidang teknologi informasi seperti komputer jinjing atau laptop. Sejak tahun 2014, Pak Siswanto memulai pemasaran multi produk termasuk smartphone melalui pembukaan cabang-cabang retail diberbagai kota di Jawa Tengah & Jawa Timur.`
                     </p>
                 </div>
             </div>
@@ -151,12 +243,12 @@
     <!-- our retail store section start -->
         <section id="ors" class="bg-gray-50 p-10 overflow-hidden">
             <div class="text-center">
-                <h2 class="py-10 capitalize font-extrabold text-4xl lg:text-5xl text-rose-600">our retail store</h2>
+                <h2 class="py-10 capitalize font-extrabold text-4xl lg:text-5xl text-rose-600" data-aos="fade-up" data-aos-delay="200">our retail store</h2>
             </div>
             <div>
                 <div class="grid grid-cols-1 gap-4 transition-all sm:grid-cols-2 md:grid-cols-3 md:gap-5 lg:grid-cols-4 lg:gap-6">
                     <!-- ab comp -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 sm:col-start-2 lg:col-start-1">
+                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 sm:col-start-2 lg:col-start-1" data-aos="fade-right" data-aos-delay="200">
                         <img src="https://i.ibb.co.com/bgbyLb0/ab.png" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" alt="ab" border="0">
                         <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
                                 <h4 class="text-2xl py-3 text-gray-700">AB Computer</h4>
@@ -187,7 +279,7 @@
                     </div>
 
                     <!-- arfa comp -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 lg:col-start-3 md:col-start-1">
+                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 lg:col-start-3 md:col-start-1" data-aos="fade-left" data-aos-delay="200">
                         <img src="https://i.ibb.co.com/RyHZDmx/arfa.png" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" alt="ab" border="0">
                         <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
                                 <h4 class="text-2xl py-3 text-gray-700">Arfa Computer</h4>
@@ -218,7 +310,7 @@
                     </div>
 
                     <!-- hana comp -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3 lg:col-start-2">
+                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3 lg:col-start-2" data-aos="fade-right" data-aos-delay="200">
                         <img src="https://i.ibb.co.com/qWYz9ct/hana.png" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" alt="" border="0">
                         <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
                                 <h4 class="text-2xl py-3 text-gray-700">Hana Computer</h4>
@@ -249,7 +341,7 @@
                     </div>
 
                     <!-- gustika comp -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-2 lg:col-start-4">
+                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-2 lg:col-start-4" data-aos="fade-left" data-aos-delay="200">
                         <img src="https://i.ibb.co.com/Jrbn1f8/gustika.png" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" alt="" border="0">
                         <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
                                 <h4 class="text-2xl py-3 text-gray-700">Gustika Computer</h4>
@@ -280,7 +372,7 @@
                     </div>
 
                     <!-- joss gandos comp -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 sm:col-start-1">
+                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 sm:col-start-1" data-aos="fade-right" data-aos-delay="200">
                         <img src="https://i.ibb.co.com/g9ct8PB/joss-gandos.png" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" alt="" border="0">
                         <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
                                 <h4 class="text-2xl py-3 text-gray-700 text-center">Joss Gandos Computer</h4>
@@ -311,7 +403,7 @@
                     </div>
 
                     <!-- assio comp -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3 lg:col-start-3">
+                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3 lg:col-start-3" data-aos="fade-left" data-aos-delay="200">
                         <img src="https://i.ibb.co.com/4K3BQLW/assio.png" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" alt="" border="0">
                         <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
                                 <h4 class="text-2xl py-3 text-gray-700">Assio Computer</h4>
@@ -342,7 +434,7 @@
                     </div>
 
                     <!-- azhar comp -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 sm:col-start-2">
+                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 sm:col-start-2" data-aos="fade-right" data-aos-delay="200">
                         <img src="https://i.ibb.co.com/6H554w6/azhar.png" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" alt="" border="0">
                         <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
                                 <h4 class="text-2xl py-3 text-gray-700">Azhar Computer</h4>
@@ -373,7 +465,7 @@
                     </div>
 
                     <!-- joss gandos bratang -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 lg:col-start-4 md:col-start-1">
+                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 lg:col-start-4 md:col-start-1" data-aos="fade-left" data-aos-delay="200">
                         <img src="https://i.ibb.co.com/f4jD5CY/joss-gandoss-bratang.png" alt="joss-gandoss-bratang" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
                         <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
                                 <h4 class="text-2xl py-3 text-gray-700">Joss Gandos Bratang</h4>
@@ -404,7 +496,7 @@
                     </div>
 
                     <!-- Joss Gandos Wadung Asri Sidoarjo -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3 lg:col-start-1">
+                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3 lg:col-start-1" data-aos="fade-right" data-aos-delay="200">
                         <img src="https://i.ibb.co.com/WP8sZW5/joss-gandos-wadung-asri-sidoarjo.png" alt="joss-gandos-wadung-asri-sidoarjo" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
                         <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
                                 <h4 class="text-2xl py-3 text-gray-700 text-center">Joss Gandos Wadung Asri Sidoarjo</h4>
@@ -435,7 +527,7 @@
                     </div>
 
                     <!-- bismar rungkut -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 lg:col-start-3 md:col-start-2">
+                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 lg:col-start-3 md:col-start-2" data-aos="fade-left" data-aos-delay="200">
                         <img src="https://i.ibb.co.com/WBtNc7B/bismar-rungkut.png" alt="bismar-rungkut" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
                         <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
                                 <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Rungkut</h4>
@@ -466,7 +558,7 @@
                     </div>
 
                     <!-- bismar bangil pasuruan -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 lg:col-start-2 sm:col-start-1">
+                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 lg:col-start-2 sm:col-start-1" data-aos="fade-right" data-aos-delay="200">
                         <img src="https://i.ibb.co.com/6yjLJ0G/bismar-bangil-pasuruan.png" alt="bismar-bangil-pasuruan" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
                         <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
                                 <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Bangil Pasuruan</h4>
@@ -497,7 +589,7 @@
                     </div>
 
                     <!-- hana pandaan pasuruan -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3 lg:col-start-4">
+                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3 lg:col-start-4" data-aos="fade-left" data-aos-delay="200">
                         <img src="https://i.ibb.co.com/4Sft243/hana-pandaan-pasuruan.png" alt="hana-pandaan-pasuruan" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
                         <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
                                 <h4 class="text-2xl py-3 text-gray-700 text-center">Hana Pandaan Pasuruan</h4>
@@ -528,7 +620,7 @@
                     </div>
 
                     <!-- Bismar pasuruan -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 sm:col-start-2 lg:col-start-1">
+                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 sm:col-start-2 lg:col-start-1" data-aos="fade-right" data-aos-delay="200">
                         <img src="https://i.ibb.co.com/ySVdQ53/bismar-pasuruan.png" alt="bismar-pasuruan" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
                         <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
                                 <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Pasuruan</h4>
@@ -559,7 +651,7 @@
                     </div>
 
                     <!-- Bismar singosari malang -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-1 lg:col-start-3">
+                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-1 lg:col-start-3" data-aos="fade-left" data-aos-delay="200">
                         <img src="https://i.ibb.co.com/YNKWys5/bismar-singosari-malang.png" alt="bismar-singosari-malang" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
                         <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
                                 <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Singosari Malang</h4>
@@ -590,7 +682,7 @@
                     </div>
 
                     <!-- Bismar probolinggo -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3 lg:col-start-2">
+                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3 lg:col-start-2" data-aos="fade-right" data-aos-delay="200">
                         <img src="https://i.ibb.co.com/nbzCknk/bismar-probolinggo.png" alt="bismar-probolinggo" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
                         <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
                                 <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Probolinggo</h4>
@@ -621,7 +713,7 @@
                     </div>
 
                     <!-- Bismar situbondo -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-2 lg:col-start-4">
+                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-2 lg:col-start-4" data-aos="fade-left" data-aos-delay="200">
                         <img src="https://i.ibb.co.com/kQ9QYDk/bismar-situbondo.png" alt="bismar-situbondo" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
                         <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
                                 <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Situbondo</h4>
@@ -652,7 +744,7 @@
                     </div>
 
                     <!-- buana cell bondowoso -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 sm:col-start-1">
+                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 sm:col-start-1" data-aos="fade-right" data-aos-delay="200">
                         <img src="https://i.ibb.co.com/phJQztY/buana-cell-bondowoso.png" alt="buana-cell-bondowoso" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
                         <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
                                 <h4 class="text-2xl py-3 text-gray-700 text-center">Buana Cell Bondowoso</h4>
@@ -683,7 +775,7 @@
                     </div>
 
                     <!-- bismar jember -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3">
+                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3" data-aos="fade-left" data-aos-delay="200">
                         <img src="https://i.ibb.co.com/ZdYjLfK/bismar-jember.png" alt="bismar-jember" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
                         <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
                                 <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Jember</h4>
@@ -714,7 +806,7 @@
                     </div>
 
                     <!-- bismar genteng banyuwangi -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 sm:col-start-2 lg:col-start-2">
+                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 sm:col-start-2 lg:col-start-2" data-aos="fade-right" data-aos-delay="200">
                         <img src="https://i.ibb.co.com/PY7nQ13/bismar-genteng-banyuwangi.png" alt="bismar-genteng-banyuwangi" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
                         <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
                                 <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Genteng Banyuwangi</h4>
@@ -745,7 +837,7 @@
                     </div>
 
                     <!-- joss gandoss ponsel bantul -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-1 lg:col-start-4">
+                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-1 lg:col-start-4" data-aos="fade-left" data-aos-delay="200">
                         <img src="https://i.ibb.co.com/cQskXVs/joss-gandos-ponsel-bantul.png" alt="joss-gandos-ponsel-bantul" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
                         <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
                                 <h4 class="text-2xl py-3 text-gray-700 text-center">Joss Gandos Ponsel Bantul</h4>
@@ -776,7 +868,7 @@
                     </div>
 
                     <!-- Bismar Darussalam Cerme Gresik -->
-                    <div class="h-96 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3 lg:col-start-2 lg:col-span-2">
+                    <div class="h-96 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3 lg:col-start-2 lg:col-span-2" data-aos="fade-up" data-aos-delay="200">
                         <img src="https://i.ibb.co.com/wdq0tW9/darussalam-bismar.jpg" alt="bismar-darussalam-cerme-gresik" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
                         <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
                                 <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Darussalam Cerme Gresik</h4>
@@ -813,10 +905,10 @@
 
     <!-- our team section start -->
         <section id="our_team" class="bg-gray-50 p-10 overflow-hidden">
-            <h2 class="py-10 capitalize font-extrabold text-4xl text-center lg:text-5xl text-rose-600">our team</h2>
+            <h2 class="py-10 capitalize font-extrabold text-4xl text-center lg:text-5xl text-rose-600" data-aos="fade-up" data-aos-delay="200">our team</h2>
             <div class="grid grid-cols-1 gap-4 transition-all sm:grid-cols-2 md:grid-cols-3 md:gap-5 lg:grid-cols-3 lg:gap-6">
                 <!-- hrd -->
-                <div class="h-64 rounded-lg bg-gray-600 font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105">
+                <div class="h-64 rounded-lg bg-gray-600 font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105" data-aos="zoom-in" data-aos-delay="200">
                     <img src="https://i.ibb.co.com/DY09jfK/div-hrd.jpg" alt="div-hrd" class="absolute h-full w-full duration-300 group-hover:scale-110 group-hover:rotate-3">
                     <div class="absolute bottom-2 left-0 w-0 transition-all h-16 bg-rose-600  rounded-lg group-hover:w-full group-hover:rotate-3 group">
                         <p class="text-lg text-center capitalize text-gray-100 hidden group-hover:block">divisi</p>
@@ -825,7 +917,7 @@
                 </div>
 
                 <!-- marketing -->
-                <div class="h-64 rounded-lg bg-gray-600  font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105">
+                <div class="h-64 rounded-lg bg-gray-600  font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105" data-aos="zoom-in" data-aos-delay="200">
                     <img src="https://i.ibb.co.com/nfr4ybF/div-marketing.jpg" alt="div-marketing"  class="absolute h-full w-full duration-300 group-hover:scale-110">
                     <div class="absolute left-0 bottom-0 w-full h-0 duration-300 bg-rose-600 z-0 group-hover:h-16 ">
                         <p class="text-lg text-center capitalize text-gray-100 hidden group-hover:block">divisi</p>
@@ -834,7 +926,7 @@
                 </div>
 
                 <!-- pendidikan -->
-                <div class="h-64 rounded-lg bg-gray-600 font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105">
+                <div class="h-64 rounded-lg bg-gray-600 font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105" data-aos="zoom-in" data-aos-delay="200">
                     <img src="https://i.ibb.co.com/9btqScC/div-pendidikan.jpg" alt="div-pendidikan" class="absolute h-full w-full duration-300 group-hover:scale-110 group-hover:-rotate-3">
                     <div class="absolute bottom-2 right-0 w-0 transition-all h-16 bg-rose-600  rounded-lg group-hover:w-full group-hover:-rotate-3 group">
                         <p class="text-lg text-center capitalize text-gray-100 hidden group-hover:block">divisi</p>
@@ -843,7 +935,7 @@
                 </div>
 
                 <!-- finance -->
-                <div class="h-64 rounded-lg bg-gray-600 font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105">
+                <div class="h-64 rounded-lg bg-gray-600 font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105" data-aos="zoom-in" data-aos-delay="200">
                     <img src="https://i.ibb.co.com/4NJKnWj/div-finance.jpg" alt="div-finance" class="absolute h-full w-full duration-300 group-hover:scale-110 group-hover:rotate-3">
                     <div class="absolute bottom-2 left-0 w-0 transition-all h-16 bg-rose-600  rounded-lg group-hover:w-full group-hover:rotate-3 group">
                         <p class="text-lg text-center capitalize text-gray-100 hidden group-hover:block">divisi</p>
@@ -852,7 +944,7 @@
                 </div>
 
                 <!-- digital marketing -->
-                <div class="h-64 rounded-lg bg-gray-600  font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105">
+                <div class="h-64 rounded-lg bg-gray-600  font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105" data-aos="zoom-in" data-aos-delay="200">
                     <img src="https://i.ibb.co.com/1RqK0Yk/div-digital-marketing.jpg" alt="div-digital-marketing"  class="absolute h-full w-full duration-300 group-hover:scale-110">
                     <div class="absolute left-0 bottom-0 w-full h-0 duration-300 bg-rose-600 z-0 group-hover:h-16 ">
                         <p class="text-lg text-center capitalize text-gray-100 hidden group-hover:block">divisi</p>
@@ -861,7 +953,7 @@
                 </div>
 
                 <!-- warehouse -->
-                <div class="h-64 rounded-lg bg-gray-600 font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105">
+                <div class="h-64 rounded-lg bg-gray-600 font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105" data-aos="zoom-in" data-aos-delay="200">
                     <img src="https://i.ibb.co.com/3p5qZL3/div-gudang.jpg" alt="div-gudang" class="absolute h-full w-full duration-300 group-hover:scale-110 group-hover:-rotate-3">
                     <div class="absolute bottom-2 right-0 w-0 transition-all h-16 bg-rose-600  rounded-lg group-hover:w-full group-hover:-rotate-3 group">
                         <p class="text-lg text-center capitalize text-gray-100 hidden group-hover:block">divisi</p>
@@ -870,7 +962,7 @@
                 </div>
 
                 <!-- pajak -->
-                <div class="h-64 rounded-lg bg-gray-600 font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105">
+                <div class="h-64 rounded-lg bg-gray-600 font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105" data-aos="zoom-in" data-aos-delay="200">
                     <img src="https://i.ibb.co.com/XzMvmVP/div-pajak.jpg" alt="div-pajak" class="absolute h-full w-full duration-300 group-hover:scale-110 group-hover:rotate-3">
                     <div class="absolute bottom-2 left-0 w-0 transition-all h-16 bg-rose-600  rounded-lg group-hover:w-full group-hover:rotate-3 group">
                         <p class="text-lg text-center capitalize text-gray-100 hidden group-hover:block">divisi</p>
@@ -879,7 +971,7 @@
                 </div>
 
                 <!-- delivery -->
-                <div class="h-64 rounded-lg bg-gray-600  font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105">
+                <div class="h-64 rounded-lg bg-gray-600  font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105" data-aos="zoom-in" data-aos-delay="200">
                     <img src="https://i.ibb.co.com/rHCZydQ/div-pengiriman.jpg" alt="div-pengiriman" class="absolute h-full w-full duration-300 group-hover:scale-110">
                     <div class="absolute left-0 bottom-0 w-full h-0 duration-300 bg-rose-600 z-0 group-hover:h-16 ">
                         <p class="text-lg text-center capitalize text-gray-100 hidden group-hover:block">divisi</p>
@@ -888,7 +980,7 @@
                 </div>
 
                 <!-- service -->
-                <div class="h-64 rounded-lg bg-gray-600 font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105">
+                <div class="h-64 rounded-lg bg-gray-600 font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105" data-aos="zoom-in" data-aos-delay="200">
                     <img src="https://i.ibb.co.com/ZM27hSC/div-retur-service.jpg" alt="div-retur-service" class="absolute h-full w-full duration-300 group-hover:scale-110 group-hover:-rotate-3">
                     <div class="absolute bottom-2 right-0 w-0 transition-all h-16 bg-rose-600  rounded-lg group-hover:w-full group-hover:-rotate-3 group">
                         <p class="text-lg text-center capitalize text-gray-100 hidden group-hover:block">divisi</p>
@@ -911,9 +1003,9 @@
 
     <!-- contact section start -->
         <section id="contact" class="py-10 bg-gray-50 dark:bg-gray-900">
-            <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+            <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md" data-aos="fade-up-right" data-aos-delay="300">
                 <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-center text-rose-600 dark:text-white lg:text-5xl">Contact Us</h2>
-                <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Yang berkepentingan boleh mengirimkan pesan dibawah ini.</p>
+                <p class="mb-8 lg:mb-16 font-light text-center text-gray-700 dark:text-gray-400 sm:text-xl">Yang berkepentingan boleh mengirimkan pesan dibawah ini.</p>
                 <form id="contact-form" action="https://formspree.io/f/xwpkevnj" method="POST" class="space-y-8">
                     <div>
                         <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Name</label>
@@ -938,53 +1030,71 @@
     <!-- contact section end -->
 
     <!-- footer section start -->
-        <footer class="bg-white rounded-lg shadow sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 dark:bg-gray-800 antialiased">
-            <p class="mb-4 text-sm text-center text-gray-500 dark:text-gray-400 sm:mb-0">
+        <footer class="bg-white rounded-lg shadow sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 dark:bg-gray-800 antialiased border-t-2">
+            <p class="mb-4 text-sm text-center text-gray-700 dark:text-gray-400 sm:mb-0">
                 &copy; 2024-2028 <span class="uppercase text-rose-500 font-semibold hover:underline">pt. indo bismar</span>. All rights reserved.
             </p>
             <div class="flex justify-center items-center space-x-1">
-            <a href="https://www.instagram.com/indobismar/?hl=id" target="_blank" data-tooltip-target="tooltip-facebook" class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600">
-                <svg class="w-6 h-6 text-gray-500 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                    <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
-                </svg>              
+
+            <!-- facebook -->
+            <a href="https://www.instagram.com/indobismar/?hl=id" target="_blank" data-tooltip-target="tooltip-facebook" class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-primary-500 hover:bg-gray-100 dark:hover:bg-gray-600">
+                <div class="">
+                    <i class="fa-solid fa-lg fab fa-facebook"></i>
+                </div>
+                <span class="sr-only">Facebook</span>
+                <div id="tooltip-facebook" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700">
+                    Follow us on Facebook
+                    <div class="tooltip-arrow" data-popper-arrow></div>
+                </div>
+            </a>
+
+            <!-- instagram -->
+            <a href="https://www.instagram.com/indobismar/?hl=id" target="_blank" data-tooltip-target="tooltip-instagram" class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-primary-500 hover:bg-gray-100 dark:hover:bg-gray-600">
+                <div class="">
+                    <i class="fa-solid fa-lg fab fa-instagram"></i>
+                </div>
                 <span class="sr-only">Instagram</span>
+                <div id="tooltip-instagram" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700">
+                    Follow us on Instagram
+                    <div class="tooltip-arrow" data-popper-arrow></div>
+                </div>
             </a>
-            <div id="tooltip-facebook" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700">
-                Follow us on Instagram
-                <div class="tooltip-arrow" data-popper-arrow></div>
-            </div>
-            <a href="https://www.youtube.com/@PTINDOBISMARGROUP" target="_blank" data-tooltip-target="tooltip-twitter" class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600">
-                <svg class="w-6 h-6 text-gray-500 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                    <path fill-rule="evenodd" d="M21.7 8.037a4.26 4.26 0 0 0-.789-1.964 2.84 2.84 0 0 0-1.984-.839c-2.767-.2-6.926-.2-6.926-.2s-4.157 0-6.928.2a2.836 2.836 0 0 0-1.983.839 4.225 4.225 0 0 0-.79 1.965 30.146 30.146 0 0 0-.2 3.206v1.5a30.12 30.12 0 0 0 .2 3.206c.094.712.364 1.39.784 1.972.604.536 1.38.837 2.187.848 1.583.151 6.731.2 6.731.2s4.161 0 6.928-.2a2.844 2.844 0 0 0 1.985-.84 4.27 4.27 0 0 0 .787-1.965 30.12 30.12 0 0 0 .2-3.206v-1.516a30.672 30.672 0 0 0-.202-3.206Zm-11.692 6.554v-5.62l5.4 2.819-5.4 2.801Z" clip-rule="evenodd"/>
-                </svg>              
+
+            <!-- youtube -->
+            <a href="https://www.youtube.com/@PTINDOBISMARGROUP" target="_blank" data-tooltip-target="tooltip-youtube" class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-primary-500 hover:bg-gray-100 dark:hover:bg-gray-600">
+                <div class="">
+                    <i class="fa-solid fa-lg fab fa-youtube"></i>
+                </div>            
                 <span class="sr-only">YouTube</span>
+                <div id="tooltip-youtube" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700">
+                    Follow us on YouTube
+                    <div class="tooltip-arrow" data-popper-arrow></div>
+                </div>
             </a>
-            <div id="tooltip-twitter" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700">
-                Follow us on YouTube
-                <div class="tooltip-arrow" data-popper-arrow></div>
-            </div>
-            <a href="https://www.tiktok.com/@officialindobismar" target="_blank" data-tooltip-target="tooltip-github" class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600">
-                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" fill="gray" viewBox="0 0 30 30">
-                    <path d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.104,4,24,4z M22.689,13.474 c-0.13,0.012-0.261,0.02-0.393,0.02c-1.495,0-2.809-0.768-3.574-1.931c0,3.049,0,6.519,0,6.577c0,2.685-2.177,4.861-4.861,4.861 C11.177,23,9,20.823,9,18.139c0-2.685,2.177-4.861,4.861-4.861c0.102,0,0.201,0.009,0.3,0.015v2.396c-0.1-0.012-0.197-0.03-0.3-0.03 c-1.37,0-2.481,1.111-2.481,2.481s1.11,2.481,2.481,2.481c1.371,0,2.581-1.08,2.581-2.45c0-0.055,0.024-11.17,0.024-11.17h2.289 c0.215,2.047,1.868,3.663,3.934,3.811V13.474z"></path>
-                </svg>             
+
+            <!-- tiktok -->
+            <a href="https://www.tiktok.com/@officialindobismar" target="_blank" data-tooltip-target="tooltip-tiktok" class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-primary-500 hover:bg-gray-100 dark:hover:bg-gray-600">
+                <div class="">
+                    <i class="fa-solid fa-lg fab fa-tiktok"></i>
+                </div>          
                 <span class="sr-only">TikTok</span>
+                <div id="tooltip-tiktok" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700">
+                    Follow us on TikTok
+                    <div class="tooltip-arrow" data-popper-arrow></div>
+                </div>
             </a>
-            <div id="tooltip-github" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700">
-                Follow us on Tiktok
-                <div class="tooltip-arrow" data-popper-arrow></div>
-            </div>
-            <a href="https://wa.me/6283145319592" target="_blank" data-tooltip-target="tooltip-dribbble" class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600">
-                <svg class="w-6 h-6 text-gray-500 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                    <path fill="currentColor" fill-rule="evenodd" d="M12 4a8 8 0 0 0-6.895 12.06l.569.718-.697 2.359 2.32-.648.379.243A8 8 0 1 0 12 4ZM2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10a9.96 9.96 0 0 1-5.016-1.347l-4.948 1.382 1.426-4.829-.006-.007-.033-.055A9.958 9.958 0 0 1 2 12Z" clip-rule="evenodd"/>
-                    <path fill="currentColor" d="M16.735 13.492c-.038-.018-1.497-.736-1.756-.83a1.008 1.008 0 0 0-.34-.075c-.196 0-.362.098-.49.291-.146.217-.587.732-.723.886-.018.02-.042.045-.057.045-.013 0-.239-.093-.307-.123-1.564-.68-2.751-2.313-2.914-2.589-.023-.04-.024-.057-.024-.057.005-.021.058-.074.085-.101.08-.079.166-.182.249-.283l.117-.14c.121-.14.175-.25.237-.375l.033-.066a.68.68 0 0 0-.02-.64c-.034-.069-.65-1.555-.715-1.711-.158-.377-.366-.552-.655-.552-.027 0 0 0-.112.005-.137.005-.883.104-1.213.311-.35.22-.94.924-.94 2.16 0 1.112.705 2.162 1.008 2.561l.041.06c1.161 1.695 2.608 2.951 4.074 3.537 1.412.564 2.081.63 2.461.63.16 0 .288-.013.4-.024l.072-.007c.488-.043 1.56-.599 1.804-1.276.192-.534.243-1.117.115-1.329-.088-.144-.239-.216-.43-.308Z"/>
-                </svg>
-                
+
+            <!-- whatsapp -->
+            <a href="https://wa.me/6283145319592" target="_blank" data-tooltip-target="tooltip-whatsapp" class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-primary-500 hover:bg-gray-100 dark:hover:bg-gray-600">
+                <div class="">
+                    <i class="fa-solid fa-lg fab fa-whatsapp"></i>
+                </div>
                 <span class="sr-only">WhatsApp</span>
+                <div id="tooltip-whatsapp" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700">
+                    Contact us on WhatsApp
+                    <div class="tooltip-arrow" data-popper-arrow></div>
+                </div>
             </a>
-            <div id="tooltip-dribbble" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700">
-                Contact us on WhatsApp
-                <div class="tooltip-arrow" data-popper-arrow></div>
-            </div>
         </div>
         </footer>
     <!-- footer section end -->
@@ -1001,6 +1111,8 @@
     </script>
     <script src="dist/script.js"></script>
     <script src="node_modules/flowbite/dist/flowbite.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    <script src="assets/aos/dist/aos.js"></script>
+    <script src="assets/aos/dist/init.js"></script>
+
 </body>
 </html>
