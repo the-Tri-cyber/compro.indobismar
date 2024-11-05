@@ -23,65 +23,8 @@
 <body>
     <!-- location section start -->
         <div id="anouncement" class="flex items-center justify-between gap-2 bg-primary-600 px-4 text-white">
-            <!-- sosmed -->
-            <div class="flex justify-center items-center">
-                <!-- instagram -->
-                <a href="https://www.instagram.com/indobismar/?hl=id" class="ml-12 px-2 py-1 my-2 mx-1 rounded-md hover:bg-gray-100 group">
-                    <div class="group-hover:text-primary-600">
-                        <i class="fa-solid fa-lg fab fa-instagram"></i>
-                    </div>
-                </a>
-                <!-- facebook -->
-                <a href="https://www.facebook.com/ptindobismargroup" class="px-2 py-1 my-2 mx-1 rounded-md hover:bg-gray-100 group">
-                    <div class="group-hover:text-primary-600">
-                        <i class="fa-solid fa-lg fab fa-facebook"></i>
-                    </div>
-                </a>
-                <!-- tiktok -->
-                <a href="https://www.tiktok.com/@officialindobismar" class="px-2 py-1 my-2 mx-1 rounded-md hover:bg-gray-100 group">
-                    <div class="group-hover:text-primary-600">
-                        <i class="fa-solid fa-lg fab fa-tiktok"></i>
-                    </div>
-                </a>
-                <!-- youtube -->
-                <a href="https://www.youtube.com/@PTINDOBISMARGROUP" class="px-2 py-1 my-2 mx-1 rounded-md hover:bg-gray-100 group">
-                    <div class="group-hover:text-primary-600">
-                        <i class="fa-solid fa-lg fab fa-youtube"></i>
-                    </div>
-                </a>
-            </div>
-
-            <!-- link -->
-            <div class="flex">
-                <!-- location -->
-                <div class="text-sm font-semibold italic">
-                    <a href="https://maps.app.goo.gl/dmkrS5mayCYEUh6Z6" class="inline-block hover:underline" target="_blank">
-                        <i class="fa-solid fa-lg fa-location-dot"></i>
-                        Location
-                    </a>
-                </div>
-                <!-- admin -->
-                <div class="text-sm font-semibold italic pl-10">
-                    <a href="https://wa.me/6283145319592" class="inline-block hover:underline" target="_blank">
-                        <i class="fa-solid fa-lg fab fa-whatsapp"></i>
-                        Admin IndoBismar
-                    </a>
-                </div>
-                <!-- education -->
-                <div class="text-sm font-semibold italic pl-10">
-                    <a href="https://bismareducation.com/" class="inline-block hover:underline" target="_blank">
-                        <i class="fa-solid fa-lg fas fa-graduation-cap"></i>
-                        Bismar Education
-                    </a>
-                </div>
-            </div>
-            
             <!-- close -->
-            <button
-            id="btnAn"
-            aria-label="Dismiss"
-            class="shrink-0 rounded-lg bg-black/10 p-1 transition hover:bg-black/20"
-            >
+            <button id="btnAn" aria-label="Dismiss" class="shrink-0 rounded-lg bg-black/10 p-1 transition hover:bg-black/20">
             <svg xmlns="http://www.w3.org/2000/svg" class="size-5" viewBox="0 0 20 20" fill="currentColor">
                 <path
                 fill-rule="evenodd"
@@ -90,11 +33,64 @@
                 />
             </svg>
             </button>
+
+            <!-- link -->
+            <div class="flex">
+                <!-- location -->
+                <div class="text-sm font-semibold italic flex items-center">
+                    <a href="https://maps.app.goo.gl/dmkrS5mayCYEUh6Z6" class="hover:underline hover:underline-offset-2 flex items-center px-1 sm:px-3" target="_blank">
+                        <i class="fa-solid fa-lg fa-location-dot px-1"></i>
+                        <p class="hidden sm:flex">Location</p>
+                    </a>
+                </div>
+                <!-- admin -->
+                <div class="text-sm font-semibold italic flex items-center">
+                    <a href="https://wa.me/6283145319592" class="hover:underline hover:underline-offset-2 flex items-center px-1 sm:px-3" target="_blank">
+                        <i class="fa-solid fa-lg fab fa-whatsapp px-1"></i>
+                        <p class="hidden sm:flex">Admin IndoBismar</p>
+                    </a>
+                </div>
+                <!-- education -->
+                <div class="text-sm font-semibold italic flex items-center">
+                    <a href="https://bismareducation.com/" class="hover:underline hover:underline-offset-2 flex items-center px-1 sm:px-3" target="_blank">
+                        <i class="fa-solid fa-lg fas fa-graduation-cap px-1"></i>
+                        <p class="hidden sm:flex">Bismar Education</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- sosmed -->
+            <div class="flex justify-center items-center">
+                <!-- instagram -->
+                <a href="https://www.instagram.com/indobismar/?hl=id" class="px-1 sm:px-2 py-1 my-2 mx-1 rounded-md hover:bg-gray-100 group">
+                    <div class="group-hover:text-primary-600">
+                        <i class="fa-solid fa-lg fab fa-instagram"></i>
+                    </div>
+                </a>
+                <!-- facebook -->
+                <a href="https://www.facebook.com/ptindobismargroup" class="px-1 sm:px-2 py-1 my-2 mx-1 rounded-md hover:bg-gray-100 group">
+                    <div class="group-hover:text-primary-600">
+                        <i class="fa-solid fa-lg fab fa-facebook"></i>
+                    </div>
+                </a>
+                <!-- tiktok -->
+                <a href="https://www.tiktok.com/@officialindobismar" class="px-1 sm:px-2 py-1 my-2 mx-1 rounded-md hover:bg-gray-100 group">
+                    <div class="group-hover:text-primary-600">
+                        <i class="fa-solid fa-lg fab fa-tiktok"></i>
+                    </div>
+                </a>
+                <!-- youtube -->
+                <a href="https://www.youtube.com/@PTINDOBISMARGROUP" class="px-1 sm:px-2 py-1 my-2 mx-1 rounded-md hover:bg-gray-100 group">
+                    <div class="group-hover:text-primary-600">
+                        <i class="fa-solid fa-lg fab fa-youtube"></i>
+                    </div>
+                </a>
+            </div>
         </div>      
     <!-- location section end -->
 
     <!-- navbar section start -->
-        <nav class="bg-gray-100 border-b dark:bg-gray-800 antialiased sticky top-0 z-50">
+        <nav class="bg-gray-100 border-b dark:bg-gray-800 antialiase shadow-md sticky top-0 z-50">
             <div class="max-w-screen-xl px-4 mx-auto 2xl:px-0 transition-all">
                 <div class="flex items-center justify-between">
                     <div class="flex justify-between items-center space-x-3">
@@ -106,7 +102,7 @@
                         </div>
                     </div>
                     <div>
-                        <ul class="hidden text-lg md:flex items-center justify-end gap-3 md:gap-2 lg:gap-6 py-3 sm:justify-end">
+                        <ul class="hidden text-lg md:flex items-center justify-end gap-2 md:gap-2 lg:gap-6 py-3 sm:justify-end">
                             <li>
                             <a href="#" title="" class="flex text-lg font-bold hover:bg-gray-300 p-2 hover:rounded-lg text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
                                 Home
@@ -124,7 +120,7 @@
                             </li>
                             <li class="shrink-0">
                             <a href="#ors" title="" class="text-lg font-bold hover:bg-gray-300 p-2 hover:rounded-lg text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
-                                Our Retail Store
+                                Store
                             </a>
                             </li>
                             <li class="shrink-0">
@@ -140,8 +136,8 @@
                         </ul>
 
                         <!-- hamburger -->
-                        <div class="flex items-center lg:space-x-2">
-                            <button type="button" data-collapse-toggle="ecommerce-navbar-menu-1" aria-controls="ecommerce-navbar-menu-1" aria-expanded="false" class="inline-flex md:hidden items-center justify-center hover:bg-gray-100 rounded-md dark:hover:bg-gray-700 p-2 text-gray-900 dark:text-white">
+                        <div class="flex items-center lg:space-x-2 py-3 md:py-0">
+                            <button type="button" data-collapse-toggle="ecommerce-navbar-menu-1" aria-controls="ecommerce-navbar-menu-1" aria-expanded="false" class="inline-flex border-2 md:hidden items-center justify-center hover:bg-gray-200 rounded-lg dark:hover:bg-gray-700 p-2 text-gray-900 dark:text-white">
                                 <span class="sr-only">
                                 Open Menu
                                 </span>
@@ -165,7 +161,7 @@
                         <a href="#founder" class="hover:text-primary-700 dark:hover:text-primary-500">Founder</a>
                     </li>
                     <li>
-                        <a href="#ors" class="hover:text-primary-700 dark:hover:text-primary-500">Our Retail Store</a>
+                        <a href="#ors" class="hover:text-primary-700 dark:hover:text-primary-500">Store</a>
                     </li>
                     <li>
                         <a href="#our_team" class="hover:text-primary-700 dark:hover:text-primary-500">Team</a>
@@ -213,699 +209,701 @@
         </section>
     <!-- CTA section end -->
 
-    <!-- sejarah section start -->
-        <div id="sejarah" class="pt-40 pb-20 text-center bg-gray-50">
-            <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-                <h2 class="text-4xl pt-20 pb-10 capitalize font-extrabold lg:text-5xl text-rose-600 ">sejarah</h2>
-                <div class="flex align-items-center justify-center">
-                    <p class="px-10 text-gray-700 text-lg text-center max-w-4xl"><span class="text-rose-600 font-semibold">PT. INDO BISMAR</span> adalah perusahaan multi produk yang bergerak dibidang penjualan grosir juga retail laptop, komputer, smartphone, dan peralatan IT lainnya. PT. Indo Bismar sendiri didirikan pada tahun 2000 di Surabaya. Di tahun 2014 kami memulai melakukan pemasaran multi produk termasuk smartphone dan melakukan pembukaan cabang-cabang retail di berbagai kota di Jawa Timur & Jawa Tengah, yang sampai dengan saat ini sudah mencapai 24 cabang, dengan kantor pusat yang berada di Surabaya.</p>
+    <!-- about section start -->
+    
+        <!-- sejarah section start -->
+            <div id="sejarah" class="pt-40 pb-20 text-center bg-gray-50">
+                <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                    <h2 class="text-4xl pt-20 pb-10 capitalize font-extrabold lg:text-5xl text-rose-600 ">sejarah</h2>
+                    <div class="flex align-items-center justify-center">
+                        <p class="px-10 text-gray-700 text-lg text-center max-w-4xl"><span class="text-rose-600 font-semibold">PT. INDO BISMAR</span> adalah perusahaan multi produk yang bergerak dibidang penjualan grosir juga retail laptop, komputer, smartphone, dan peralatan IT lainnya. PT. Indo Bismar sendiri didirikan pada tahun 2000 di Surabaya. Di tahun 2014 kami memulai melakukan pemasaran multi produk termasuk smartphone dan melakukan pembukaan cabang-cabang retail di berbagai kota di Jawa Timur & Jawa Tengah, yang sampai dengan saat ini sudah mencapai 24 cabang, dengan kantor pusat yang berada di Surabaya.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    <!-- sejarah section end -->
+        <!-- sejarah section end -->
 
-    <!-- founder section start -->
-        <section id="founder" class="overflow-hidden p-10 bg-gray-50 text-center md:grid md:grid-cols-2 relative sm:items-center">
-            <img alt="" src="dist/img/founder.png" class="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px] transition-all duration-500 hover:scale-110" data-aos="fade-up-right" data-aos-delay="200" />
-            <div class="p-8 md:p-12 lg:px-16 lg:py-24">
-                <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right" data-aos="fade-up-left" data-aos-delay="200">
-                    <h2 class="text-4xl font-extrabold capitalize text-rose-600 lg:text-5xl">founder</h2>
-                    <h3 class="text-lg font-semibold text-gray-700 py-3">Dr. H. Siswanto, S.Sos., M.M.</h3>
-                    
-                    <p class="text-gray-700 text-lg md:mt-4 md:block text-balance text-center ">
-                    Pak Siswanto mulai merintis Indo Bismar mulai sejak tahun 2000. Pada awalnya, ia memilih usaha bergerak di bidang teknologi informasi seperti komputer jinjing atau laptop. Sejak tahun 2014, Pak Siswanto memulai pemasaran multi produk termasuk smartphone melalui pembukaan cabang-cabang retail diberbagai kota di Jawa Tengah & Jawa Timur.`
-                    </p>
+        <!-- founder section start -->
+            <section id="founder" class="overflow-hidden p-10 bg-gray-50 text-center md:grid md:grid-cols-2 relative sm:items-center">
+                <img alt="" src="dist/img/founder.png" class="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px] transition-all duration-500 hover:scale-110" data-aos="fade-up-right" data-aos-delay="200" />
+                <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+                    <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right" data-aos="fade-up-left" data-aos-delay="200">
+                        <h2 class="text-4xl font-extrabold capitalize text-rose-600 lg:text-5xl">founder</h2>
+                        <h3 class="text-lg font-semibold text-gray-700 py-3">Dr. H. Siswanto, S.Sos., M.M.</h3>
+                        
+                        <p class="text-gray-700 text-lg md:mt-4 md:block text-balance text-center ">
+                        Pak Siswanto mulai merintis Indo Bismar mulai sejak tahun 2000. Pada awalnya, ia memilih usaha bergerak di bidang teknologi informasi seperti komputer jinjing atau laptop. Sejak tahun 2014, Pak Siswanto memulai pemasaran multi produk termasuk smartphone melalui pembukaan cabang-cabang retail diberbagai kota di Jawa Tengah & Jawa Timur.`
+                        </p>
+                    </div>
                 </div>
-            </div>
-        </section>
-    <!-- founder section end -->
+            </section>
+        <!-- founder section end -->
 
-    <!-- our retail store section start -->
-        <section id="ors" class="bg-gray-50 p-10 overflow-hidden">
-            <div class="text-center">
-                <h2 class="py-10 capitalize font-extrabold text-4xl lg:text-5xl text-rose-600" data-aos="fade-up" data-aos-delay="200">our retail store</h2>
-            </div>
-            <div>
-                <div class="grid grid-cols-1 gap-4 transition-all sm:grid-cols-2 md:grid-cols-3 md:gap-5 lg:grid-cols-4 lg:gap-6">
-                    <!-- ab comp -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 sm:col-start-2 lg:col-start-1" data-aos="fade-right" data-aos-delay="200">
-                        <img src="https://i.ibb.co.com/bgbyLb0/ab.png" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" alt="ab" border="0">
-                        <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
-                                <h4 class="text-2xl py-3 text-gray-700">AB Computer</h4>
-                                
-                                <div class="flex justify-center">
-                                    <!-- map -->
-                                    <a href="https://maps.app.goo.gl/7VHbM1K1bz6HhMKZA" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
-
-                                    <!-- instagram -->
-                                    <a href="https://www.instagram.com/abcomputersurabaya?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                            <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
+        <!-- our retail store section start -->
+            <section id="ors" class="bg-gray-50 p-10 overflow-hidden">
+                <div class="text-center">
+                    <h2 class="py-10 capitalize font-extrabold text-4xl lg:text-5xl text-rose-600" data-aos="fade-up" data-aos-delay="200">our retail store</h2>
+                </div>
+                <div>
+                    <div class="grid grid-cols-1 gap-4 transition-all sm:grid-cols-2 md:grid-cols-3 md:gap-5 lg:grid-cols-4 lg:gap-6">
+                        <!-- ab comp -->
+                        <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 sm:col-start-2 lg:col-start-1" data-aos="fade-right" data-aos-delay="200">
+                            <img src="https://i.ibb.co.com/bgbyLb0/ab.png" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" alt="ab" border="0">
+                            <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
+                                    <h4 class="text-2xl py-3 text-gray-700">AB Computer</h4>
                                     
-                                    <!-- facebook -->
-                                    <a href="https://www.facebook.com/profile.php?id=100076869604175" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>                                  
+                                    <div class="flex justify-center">
+                                        <!-- map -->
+                                        <a href="https://maps.app.goo.gl/7VHbM1K1bz6HhMKZA" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
+
+                                        <!-- instagram -->
+                                        <a href="https://www.instagram.com/abcomputersurabaya?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                                <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
+                                        
+                                        <!-- facebook -->
+                                        <a href="https://www.facebook.com/profile.php?id=100076869604175" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>                                  
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- arfa comp -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 lg:col-start-3 md:col-start-1" data-aos="fade-left" data-aos-delay="200">
-                        <img src="https://i.ibb.co.com/RyHZDmx/arfa.png" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" alt="ab" border="0">
-                        <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
-                                <h4 class="text-2xl py-3 text-gray-700">Arfa Computer</h4>
+                        <!-- arfa comp -->
+                        <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 lg:col-start-3 md:col-start-1" data-aos="fade-left" data-aos-delay="200">
+                            <img src="https://i.ibb.co.com/RyHZDmx/arfa.png" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" alt="ab" border="0">
+                            <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
+                                    <h4 class="text-2xl py-3 text-gray-700">Arfa Computer</h4>
 
-                                <div class="flex justify-center">
-                                    <!-- map -->
-                                    <a href="https://maps.app.goo.gl/iEiepJib9eQkzy9J8" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
+                                    <div class="flex justify-center">
+                                        <!-- map -->
+                                        <a href="https://maps.app.goo.gl/iEiepJib9eQkzy9J8" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
 
-                                    <!-- instagram -->
-                                    <a href="https://www.instagram.com/arfacomputer?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                            <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
-                                    
-                                    <!-- facebook -->
-                                    <a href="https://www.facebook.com/profile.php?id=100086219590943" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>                                  
+                                        <!-- instagram -->
+                                        <a href="https://www.instagram.com/arfacomputer?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                                <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
+                                        
+                                        <!-- facebook -->
+                                        <a href="https://www.facebook.com/profile.php?id=100086219590943" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>                                  
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- hana comp -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3 lg:col-start-2" data-aos="fade-right" data-aos-delay="200">
-                        <img src="https://i.ibb.co.com/qWYz9ct/hana.png" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" alt="" border="0">
-                        <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
-                                <h4 class="text-2xl py-3 text-gray-700">Hana Computer</h4>
+                        <!-- hana comp -->
+                        <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3 lg:col-start-2" data-aos="fade-right" data-aos-delay="200">
+                            <img src="https://i.ibb.co.com/qWYz9ct/hana.png" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" alt="" border="0">
+                            <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
+                                    <h4 class="text-2xl py-3 text-gray-700">Hana Computer</h4>
 
-                                <div class="flex justify-center">
-                                    <!-- map -->
-                                    <a href="https://maps.app.goo.gl/6sig7SkfPKqH7XSy7" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
+                                    <div class="flex justify-center">
+                                        <!-- map -->
+                                        <a href="https://maps.app.goo.gl/6sig7SkfPKqH7XSy7" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
 
-                                    <!-- instagram -->
-                                    <a href="https://www.instagram.com/hanacomp?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                            <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
-                                    
-                                    <!-- facebook -->
-                                    <a href="https://www.facebook.com/profile.php?id=100089091773650" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>                                  
+                                        <!-- instagram -->
+                                        <a href="https://www.instagram.com/hanacomp?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                                <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
+                                        
+                                        <!-- facebook -->
+                                        <a href="https://www.facebook.com/profile.php?id=100089091773650" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>                                  
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- gustika comp -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-2 lg:col-start-4" data-aos="fade-left" data-aos-delay="200">
-                        <img src="https://i.ibb.co.com/Jrbn1f8/gustika.png" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" alt="" border="0">
-                        <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
-                                <h4 class="text-2xl py-3 text-gray-700">Gustika Computer</h4>
+                        <!-- gustika comp -->
+                        <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-2 lg:col-start-4" data-aos="fade-left" data-aos-delay="200">
+                            <img src="https://i.ibb.co.com/Jrbn1f8/gustika.png" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" alt="" border="0">
+                            <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
+                                    <h4 class="text-2xl py-3 text-gray-700">Gustika Computer</h4>
 
-                                <div class="flex justify-center">
-                                    <!-- map -->
-                                    <a href="https://maps.app.goo.gl/y1zmntqTsfx7r7TN9" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
+                                    <div class="flex justify-center">
+                                        <!-- map -->
+                                        <a href="https://maps.app.goo.gl/y1zmntqTsfx7r7TN9" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
 
-                                    <!-- instagram -->
-                                    <a href="https://www.instagram.com/gustikacomputer?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                            <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
-                                    
-                                    <!-- facebook -->
-                                    <a href="https://www.facebook.com/gustikacomp" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>                                  
+                                        <!-- instagram -->
+                                        <a href="https://www.instagram.com/gustikacomputer?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                                <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
+                                        
+                                        <!-- facebook -->
+                                        <a href="https://www.facebook.com/gustikacomp" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>                                  
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- joss gandos comp -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 sm:col-start-1" data-aos="fade-right" data-aos-delay="200">
-                        <img src="https://i.ibb.co.com/g9ct8PB/joss-gandos.png" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" alt="" border="0">
-                        <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
-                                <h4 class="text-2xl py-3 text-gray-700 text-center">Joss Gandos Computer</h4>
+                        <!-- joss gandos comp -->
+                        <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 sm:col-start-1" data-aos="fade-right" data-aos-delay="200">
+                            <img src="https://i.ibb.co.com/g9ct8PB/joss-gandos.png" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" alt="" border="0">
+                            <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
+                                    <h4 class="text-2xl py-3 text-gray-700 text-center">Joss Gandos Computer</h4>
 
-                                <div class="flex justify-center">
-                                    <!-- map -->
-                                    <a href="https://maps.app.goo.gl/97iHq3G4kwiEDmrH6" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
+                                    <div class="flex justify-center">
+                                        <!-- map -->
+                                        <a href="https://maps.app.goo.gl/97iHq3G4kwiEDmrH6" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
 
-                                    <!-- instagram -->
-                                    <a href="https://www.instagram.com/jossgandosplasamarina?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                            <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
-                                    
-                                    <!-- facebook -->
-                                    <a href="https://www.facebook.com/han.simbada" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>                                  
+                                        <!-- instagram -->
+                                        <a href="https://www.instagram.com/jossgandosplasamarina?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                                <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
+                                        
+                                        <!-- facebook -->
+                                        <a href="https://www.facebook.com/han.simbada" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>                                  
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- assio comp -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3 lg:col-start-3" data-aos="fade-left" data-aos-delay="200">
-                        <img src="https://i.ibb.co.com/4K3BQLW/assio.png" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" alt="" border="0">
-                        <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
-                                <h4 class="text-2xl py-3 text-gray-700">Assio Computer</h4>
+                        <!-- assio comp -->
+                        <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3 lg:col-start-3" data-aos="fade-left" data-aos-delay="200">
+                            <img src="https://i.ibb.co.com/4K3BQLW/assio.png" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" alt="" border="0">
+                            <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
+                                    <h4 class="text-2xl py-3 text-gray-700">Assio Computer</h4>
 
-                                <div class="flex justify-center">
-                                    <!-- map -->
-                                    <a href="https://maps.app.goo.gl/Nrx8mSPZZJN4GtTq7" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
+                                    <div class="flex justify-center">
+                                        <!-- map -->
+                                        <a href="https://maps.app.goo.gl/Nrx8mSPZZJN4GtTq7" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
 
-                                    <!-- instagram -->
-                                    <a href="https://www.instagram.com/assio.id?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                            <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
-                                    
-                                    <!-- facebook -->
-                                    <a href="https://www.facebook.com/profile.php?id=61551721527254" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>                                  
+                                        <!-- instagram -->
+                                        <a href="https://www.instagram.com/assio.id?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                                <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
+                                        
+                                        <!-- facebook -->
+                                        <a href="https://www.facebook.com/profile.php?id=61551721527254" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>                                  
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- azhar comp -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 sm:col-start-2" data-aos="fade-right" data-aos-delay="200">
-                        <img src="https://i.ibb.co.com/6H554w6/azhar.png" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" alt="" border="0">
-                        <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
-                                <h4 class="text-2xl py-3 text-gray-700">Azhar Computer</h4>
+                        <!-- azhar comp -->
+                        <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 sm:col-start-2" data-aos="fade-right" data-aos-delay="200">
+                            <img src="https://i.ibb.co.com/6H554w6/azhar.png" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" alt="" border="0">
+                            <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
+                                    <h4 class="text-2xl py-3 text-gray-700">Azhar Computer</h4>
 
-                                <div class="flex justify-center">
-                                    <!-- map -->
-                                    <a href="https://maps.app.goo.gl/jipCFfRNzmJJvNbh7" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
+                                    <div class="flex justify-center">
+                                        <!-- map -->
+                                        <a href="https://maps.app.goo.gl/jipCFfRNzmJJvNbh7" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
 
-                                    <!-- instagram -->
-                                    <a href="https://www.instagram.com/azharkomputer.sby?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                            <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
-                                    
-                                    <!-- facebook -->
-                                    <a href="https://www.facebook.com/azharkomp" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>                                  
+                                        <!-- instagram -->
+                                        <a href="https://www.instagram.com/azharkomputer.sby?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                                <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
+                                        
+                                        <!-- facebook -->
+                                        <a href="https://www.facebook.com/azharkomp" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>                                  
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- joss gandos bratang -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 lg:col-start-4 md:col-start-1" data-aos="fade-left" data-aos-delay="200">
-                        <img src="https://i.ibb.co.com/f4jD5CY/joss-gandoss-bratang.png" alt="joss-gandoss-bratang" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
-                        <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
-                                <h4 class="text-2xl py-3 text-gray-700">Joss Gandos Bratang</h4>
+                        <!-- joss gandos bratang -->
+                        <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 lg:col-start-4 md:col-start-1" data-aos="fade-left" data-aos-delay="200">
+                            <img src="https://i.ibb.co.com/f4jD5CY/joss-gandoss-bratang.png" alt="joss-gandoss-bratang" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
+                            <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
+                                    <h4 class="text-2xl py-3 text-gray-700">Joss Gandos Bratang</h4>
 
-                                <div class="flex justify-center">
-                                    <!-- map -->
-                                    <a href="https://maps.app.goo.gl/KPbKAMpt9CjbQAxf9" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
+                                    <div class="flex justify-center">
+                                        <!-- map -->
+                                        <a href="https://maps.app.goo.gl/KPbKAMpt9CjbQAxf9" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
 
-                                    <!-- instagram -->
-                                    <a href="https://www.instagram.com/jossgandosponsel_bratang?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                            <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
-                                    
-                                    <!-- facebook -->
-                                    <a href="https://www.facebook.com/JOSSGANDOSBRATANG" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>                                  
+                                        <!-- instagram -->
+                                        <a href="https://www.instagram.com/jossgandosponsel_bratang?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                                <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
+                                        
+                                        <!-- facebook -->
+                                        <a href="https://www.facebook.com/JOSSGANDOSBRATANG" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>                                  
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- Joss Gandos Wadung Asri Sidoarjo -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3 lg:col-start-1" data-aos="fade-right" data-aos-delay="200">
-                        <img src="https://i.ibb.co.com/WP8sZW5/joss-gandos-wadung-asri-sidoarjo.png" alt="joss-gandos-wadung-asri-sidoarjo" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
-                        <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
-                                <h4 class="text-2xl py-3 text-gray-700 text-center">Joss Gandos Wadung Asri Sidoarjo</h4>
+                        <!-- Joss Gandos Wadung Asri Sidoarjo -->
+                        <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3 lg:col-start-1" data-aos="fade-right" data-aos-delay="200">
+                            <img src="https://i.ibb.co.com/WP8sZW5/joss-gandos-wadung-asri-sidoarjo.png" alt="joss-gandos-wadung-asri-sidoarjo" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
+                            <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
+                                    <h4 class="text-2xl py-3 text-gray-700 text-center">Joss Gandos Wadung Asri Sidoarjo</h4>
 
-                                <div class="flex justify-center">
-                                    <!-- map -->
-                                    <a href="https://maps.app.goo.gl/LkEup3eEWy3PhvLT9" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
+                                    <div class="flex justify-center">
+                                        <!-- map -->
+                                        <a href="https://maps.app.goo.gl/LkEup3eEWy3PhvLT9" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
 
-                                    <!-- instagram -->
-                                    <a href="https://www.instagram.com/jossgandosponsel.wadungasri?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                            <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
-                                    
-                                    <!-- facebook -->
-                                    <a href="https://www.facebook.com/groups/292304467811179" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>                                  
+                                        <!-- instagram -->
+                                        <a href="https://www.instagram.com/jossgandosponsel.wadungasri?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                                <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
+                                        
+                                        <!-- facebook -->
+                                        <a href="https://www.facebook.com/groups/292304467811179" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>                                  
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- bismar rungkut -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 lg:col-start-3 md:col-start-2" data-aos="fade-left" data-aos-delay="200">
-                        <img src="https://i.ibb.co.com/WBtNc7B/bismar-rungkut.png" alt="bismar-rungkut" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
-                        <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
-                                <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Rungkut</h4>
+                        <!-- bismar rungkut -->
+                        <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 lg:col-start-3 md:col-start-2" data-aos="fade-left" data-aos-delay="200">
+                            <img src="https://i.ibb.co.com/WBtNc7B/bismar-rungkut.png" alt="bismar-rungkut" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
+                            <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
+                                    <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Rungkut</h4>
 
-                                <div class="flex justify-center">
-                                    <!-- map -->
-                                    <a href="https://maps.app.goo.gl/AFUxpECuzugAnySX6" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
+                                    <div class="flex justify-center">
+                                        <!-- map -->
+                                        <a href="https://maps.app.goo.gl/AFUxpECuzugAnySX6" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
 
-                                    <!-- instagram -->
-                                    <a href="https://www.instagram.com/bismarponsel_rungkut?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                            <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
-                                    
-                                    <!-- facebook -->
-                                    <a href="https://www.facebook.com/bismar.rungkut.92" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>                                  
+                                        <!-- instagram -->
+                                        <a href="https://www.instagram.com/bismarponsel_rungkut?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                                <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
+                                        
+                                        <!-- facebook -->
+                                        <a href="https://www.facebook.com/bismar.rungkut.92" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>                                  
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- bismar bangil pasuruan -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 lg:col-start-2 sm:col-start-1" data-aos="fade-right" data-aos-delay="200">
-                        <img src="https://i.ibb.co.com/6yjLJ0G/bismar-bangil-pasuruan.png" alt="bismar-bangil-pasuruan" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
-                        <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
-                                <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Bangil Pasuruan</h4>
+                        <!-- bismar bangil pasuruan -->
+                        <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 lg:col-start-2 sm:col-start-1" data-aos="fade-right" data-aos-delay="200">
+                            <img src="https://i.ibb.co.com/6yjLJ0G/bismar-bangil-pasuruan.png" alt="bismar-bangil-pasuruan" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
+                            <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
+                                    <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Bangil Pasuruan</h4>
 
-                                <div class="flex justify-center">
-                                    <!-- map -->
-                                    <a href="https://maps.app.goo.gl/ZYjBSLZ2dLxYCbhq9" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
+                                    <div class="flex justify-center">
+                                        <!-- map -->
+                                        <a href="https://maps.app.goo.gl/ZYjBSLZ2dLxYCbhq9" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
 
-                                    <!-- instagram -->
-                                    <a href="https://www.instagram.com/bismarbangil_ori?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                            <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
-                                    
-                                    <!-- facebook -->
-                                    <a href="https://www.facebook.com/bismar.bangil" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>                                  
+                                        <!-- instagram -->
+                                        <a href="https://www.instagram.com/bismarbangil_ori?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                                <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
+                                        
+                                        <!-- facebook -->
+                                        <a href="https://www.facebook.com/bismar.bangil" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>                                  
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- hana pandaan pasuruan -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3 lg:col-start-4" data-aos="fade-left" data-aos-delay="200">
-                        <img src="https://i.ibb.co.com/4Sft243/hana-pandaan-pasuruan.png" alt="hana-pandaan-pasuruan" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
-                        <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
-                                <h4 class="text-2xl py-3 text-gray-700 text-center">Hana Pandaan Pasuruan</h4>
+                        <!-- hana pandaan pasuruan -->
+                        <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3 lg:col-start-4" data-aos="fade-left" data-aos-delay="200">
+                            <img src="https://i.ibb.co.com/4Sft243/hana-pandaan-pasuruan.png" alt="hana-pandaan-pasuruan" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
+                            <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
+                                    <h4 class="text-2xl py-3 text-gray-700 text-center">Hana Pandaan Pasuruan</h4>
 
-                                <div class="flex justify-center">
-                                    <!-- map -->
-                                    <a href="https://maps.app.goo.gl/NZWj4VkgKdQukMhk9" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
+                                    <div class="flex justify-center">
+                                        <!-- map -->
+                                        <a href="https://maps.app.goo.gl/NZWj4VkgKdQukMhk9" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
 
-                                    <!-- instagram -->
-                                    <a href="https://www.instagram.com/hana_ponsel?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                            <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
-                                    
-                                    <!-- facebook -->
-                                    <a href="https://www.facebook.com/hanaponsel0" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>                                  
+                                        <!-- instagram -->
+                                        <a href="https://www.instagram.com/hana_ponsel?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                                <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
+                                        
+                                        <!-- facebook -->
+                                        <a href="https://www.facebook.com/hanaponsel0" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>                                  
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- Bismar pasuruan -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 sm:col-start-2 lg:col-start-1" data-aos="fade-right" data-aos-delay="200">
-                        <img src="https://i.ibb.co.com/ySVdQ53/bismar-pasuruan.png" alt="bismar-pasuruan" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
-                        <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
-                                <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Pasuruan</h4>
+                        <!-- Bismar pasuruan -->
+                        <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 sm:col-start-2 lg:col-start-1" data-aos="fade-right" data-aos-delay="200">
+                            <img src="https://i.ibb.co.com/ySVdQ53/bismar-pasuruan.png" alt="bismar-pasuruan" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
+                            <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
+                                    <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Pasuruan</h4>
 
-                                <div class="flex justify-center">
-                                    <!-- map -->
-                                    <a href="https://maps.app.goo.gl/Bcej5HpuHGx4w95U9" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
+                                    <div class="flex justify-center">
+                                        <!-- map -->
+                                        <a href="https://maps.app.goo.gl/Bcej5HpuHGx4w95U9" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
 
-                                    <!-- instagram -->
-                                    <a href="https://www.instagram.com/bismarpasuruan?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                            <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
-                                    
-                                    <!-- facebook -->
-                                    <a href="https://www.facebook.com/profile.php?id=100013673734235" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>                                  
+                                        <!-- instagram -->
+                                        <a href="https://www.instagram.com/bismarpasuruan?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                                <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
+                                        
+                                        <!-- facebook -->
+                                        <a href="https://www.facebook.com/profile.php?id=100013673734235" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>                                  
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- Bismar singosari malang -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-1 lg:col-start-3" data-aos="fade-left" data-aos-delay="200">
-                        <img src="https://i.ibb.co.com/YNKWys5/bismar-singosari-malang.png" alt="bismar-singosari-malang" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
-                        <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
-                                <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Singosari Malang</h4>
+                        <!-- Bismar singosari malang -->
+                        <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-1 lg:col-start-3" data-aos="fade-left" data-aos-delay="200">
+                            <img src="https://i.ibb.co.com/YNKWys5/bismar-singosari-malang.png" alt="bismar-singosari-malang" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
+                            <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
+                                    <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Singosari Malang</h4>
 
-                                <div class="flex justify-center">
-                                    <!-- map -->
-                                    <a href="https://maps.app.goo.gl/TmZFStPz75jp3VJF8" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
+                                    <div class="flex justify-center">
+                                        <!-- map -->
+                                        <a href="https://maps.app.goo.gl/TmZFStPz75jp3VJF8" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
 
-                                    <!-- instagram -->
-                                    <a href="https://www.instagram.com/bismarsingosari_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                            <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
-                                    
-                                    <!-- facebook -->
-                                    <a href="https://www.facebook.com/bismar.singosari.9" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>                                  
+                                        <!-- instagram -->
+                                        <a href="https://www.instagram.com/bismarsingosari_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                                <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
+                                        
+                                        <!-- facebook -->
+                                        <a href="https://www.facebook.com/bismar.singosari.9" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>                                  
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- Bismar probolinggo -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3 lg:col-start-2" data-aos="fade-right" data-aos-delay="200">
-                        <img src="https://i.ibb.co.com/nbzCknk/bismar-probolinggo.png" alt="bismar-probolinggo" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
-                        <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
-                                <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Probolinggo</h4>
+                        <!-- Bismar probolinggo -->
+                        <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3 lg:col-start-2" data-aos="fade-right" data-aos-delay="200">
+                            <img src="https://i.ibb.co.com/nbzCknk/bismar-probolinggo.png" alt="bismar-probolinggo" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
+                            <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
+                                    <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Probolinggo</h4>
 
-                                <div class="flex justify-center">
-                                    <!-- map -->
-                                    <a href="https://maps.app.goo.gl/oWG2tsLZE61XSHcd8" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
+                                    <div class="flex justify-center">
+                                        <!-- map -->
+                                        <a href="https://maps.app.goo.gl/oWG2tsLZE61XSHcd8" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
 
-                                    <!-- instagram -->
-                                    <a href="https://www.instagram.com/bismar.probolinggo.1?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                            <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
-                                    
-                                    <!-- facebook -->
-                                    <a href="https://www.facebook.com/bismar.probolinggo" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>                                  
+                                        <!-- instagram -->
+                                        <a href="https://www.instagram.com/bismar.probolinggo.1?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                                <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
+                                        
+                                        <!-- facebook -->
+                                        <a href="https://www.facebook.com/bismar.probolinggo" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>                                  
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- Bismar situbondo -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-2 lg:col-start-4" data-aos="fade-left" data-aos-delay="200">
-                        <img src="https://i.ibb.co.com/kQ9QYDk/bismar-situbondo.png" alt="bismar-situbondo" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
-                        <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
-                                <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Situbondo</h4>
+                        <!-- Bismar situbondo -->
+                        <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-2 lg:col-start-4" data-aos="fade-left" data-aos-delay="200">
+                            <img src="https://i.ibb.co.com/kQ9QYDk/bismar-situbondo.png" alt="bismar-situbondo" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
+                            <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
+                                    <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Situbondo</h4>
 
-                                <div class="flex justify-center">
-                                    <!-- map -->
-                                    <a href="https://maps.app.goo.gl/268bWyqkjqWn2yWs8" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
+                                    <div class="flex justify-center">
+                                        <!-- map -->
+                                        <a href="https://maps.app.goo.gl/268bWyqkjqWn2yWs8" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
 
-                                    <!-- instagram -->
-                                    <a href="https://www.instagram.com/bismar_situbondo_new?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                            <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
-                                    
-                                    <!-- facebook -->
-                                    <a href="https://www.facebook.com/bismar.situbondo.7" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>                                  
+                                        <!-- instagram -->
+                                        <a href="https://www.instagram.com/bismar_situbondo_new?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                                <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
+                                        
+                                        <!-- facebook -->
+                                        <a href="https://www.facebook.com/bismar.situbondo.7" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>                                  
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- buana cell bondowoso -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 sm:col-start-1" data-aos="fade-right" data-aos-delay="200">
-                        <img src="https://i.ibb.co.com/phJQztY/buana-cell-bondowoso.png" alt="buana-cell-bondowoso" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
-                        <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
-                                <h4 class="text-2xl py-3 text-gray-700 text-center">Buana Cell Bondowoso</h4>
+                        <!-- buana cell bondowoso -->
+                        <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 sm:col-start-1" data-aos="fade-right" data-aos-delay="200">
+                            <img src="https://i.ibb.co.com/phJQztY/buana-cell-bondowoso.png" alt="buana-cell-bondowoso" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
+                            <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
+                                    <h4 class="text-2xl py-3 text-gray-700 text-center">Buana Cell Bondowoso</h4>
 
-                                <div class="flex justify-center">
-                                    <!-- map -->
-                                    <a href="https://maps.app.goo.gl/Dj1EJe4EFhoMs7Vo9" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
+                                    <div class="flex justify-center">
+                                        <!-- map -->
+                                        <a href="https://maps.app.goo.gl/Dj1EJe4EFhoMs7Vo9" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
 
-                                    <!-- instagram -->
-                                    <a href="https://www.instagram.com/buanabondowoso?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                            <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
-                                    
-                                    <!-- facebook -->
-                                    <a href="https://www.facebook.com/groups/2209368032636857" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>                                  
+                                        <!-- instagram -->
+                                        <a href="https://www.instagram.com/buanabondowoso?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                                <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
+                                        
+                                        <!-- facebook -->
+                                        <a href="https://www.facebook.com/groups/2209368032636857" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>                                  
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- bismar jember -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3" data-aos="fade-left" data-aos-delay="200">
-                        <img src="https://i.ibb.co.com/ZdYjLfK/bismar-jember.png" alt="bismar-jember" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
-                        <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
-                                <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Jember</h4>
+                        <!-- bismar jember -->
+                        <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3" data-aos="fade-left" data-aos-delay="200">
+                            <img src="https://i.ibb.co.com/ZdYjLfK/bismar-jember.png" alt="bismar-jember" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
+                            <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
+                                    <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Jember</h4>
 
-                                <div class="flex justify-center">
-                                    <!-- map -->
-                                    <a href="https://maps.app.goo.gl/gF9BAmsVkMdZCMFq5" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
+                                    <div class="flex justify-center">
+                                        <!-- map -->
+                                        <a href="https://maps.app.goo.gl/gF9BAmsVkMdZCMFq5" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
 
-                                    <!-- instagram -->
-                                    <a href="https://www.instagram.com/bismar_jember?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                            <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
-                                    
-                                    <!-- facebook -->
-                                    <a href="https://www.facebook.com/rike.andrilia.98" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>                                  
+                                        <!-- instagram -->
+                                        <a href="https://www.instagram.com/bismar_jember?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                                <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
+                                        
+                                        <!-- facebook -->
+                                        <a href="https://www.facebook.com/rike.andrilia.98" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>                                  
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- bismar genteng banyuwangi -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 sm:col-start-2 lg:col-start-2" data-aos="fade-right" data-aos-delay="200">
-                        <img src="https://i.ibb.co.com/PY7nQ13/bismar-genteng-banyuwangi.png" alt="bismar-genteng-banyuwangi" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
-                        <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
-                                <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Genteng Banyuwangi</h4>
+                        <!-- bismar genteng banyuwangi -->
+                        <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 sm:col-start-2 lg:col-start-2" data-aos="fade-right" data-aos-delay="200">
+                            <img src="https://i.ibb.co.com/PY7nQ13/bismar-genteng-banyuwangi.png" alt="bismar-genteng-banyuwangi" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
+                            <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
+                                    <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Genteng Banyuwangi</h4>
 
-                                <div class="flex justify-center">
-                                    <!-- map -->
-                                    <a href="https://maps.app.goo.gl/6jyVkMEAcQnnNhFw5" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
+                                    <div class="flex justify-center">
+                                        <!-- map -->
+                                        <a href="https://maps.app.goo.gl/6jyVkMEAcQnnNhFw5" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
 
-                                    <!-- instagram -->
-                                    <a href="https://www.instagram.com/bismar_genteng?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                            <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
-                                    
-                                    <!-- facebook -->
-                                    <a href="https://www.facebook.com/profile.php?id=100011217129245" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>                                  
+                                        <!-- instagram -->
+                                        <a href="https://www.instagram.com/bismar_genteng?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                                <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
+                                        
+                                        <!-- facebook -->
+                                        <a href="https://www.facebook.com/profile.php?id=100011217129245" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>                                  
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- joss gandoss ponsel bantul -->
-                    <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-1 lg:col-start-4" data-aos="fade-left" data-aos-delay="200">
-                        <img src="https://i.ibb.co.com/cQskXVs/joss-gandos-ponsel-bantul.png" alt="joss-gandos-ponsel-bantul" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
-                        <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
-                                <h4 class="text-2xl py-3 text-gray-700 text-center">Joss Gandos Ponsel Bantul</h4>
+                        <!-- joss gandoss ponsel bantul -->
+                        <div class="h-64 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-1 lg:col-start-4" data-aos="fade-left" data-aos-delay="200">
+                            <img src="https://i.ibb.co.com/cQskXVs/joss-gandos-ponsel-bantul.png" alt="joss-gandos-ponsel-bantul" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
+                            <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
+                                    <h4 class="text-2xl py-3 text-gray-700 text-center">Joss Gandos Ponsel Bantul</h4>
 
-                                <div class="flex justify-center">
-                                    <!-- map -->
-                                    <a href="https://maps.app.goo.gl/LLNFdZKq9rRgpCbg9" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
+                                    <div class="flex justify-center">
+                                        <!-- map -->
+                                        <a href="https://maps.app.goo.gl/LLNFdZKq9rRgpCbg9" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
 
-                                    <!-- instagram -->
-                                    <a href="https://www.instagram.com/bantuljossgandos?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                            <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
-                                    
-                                    <!-- facebook -->
-                                    <a href="https://www.facebook.com/profile.php?id=100069659747348" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>                                  
+                                        <!-- instagram -->
+                                        <a href="https://www.instagram.com/bantuljossgandos?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                                <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
+                                        
+                                        <!-- facebook -->
+                                        <a href="https://www.facebook.com/profile.php?id=100069659747348" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>                                  
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- Bismar Darussalam Cerme Gresik -->
-                    <div class="h-96 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3 lg:col-start-2 lg:col-span-2" data-aos="fade-up" data-aos-delay="200">
-                        <img src="https://i.ibb.co.com/wdq0tW9/darussalam-bismar.jpg" alt="bismar-darussalam-cerme-gresik" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
-                        <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
-                                <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Darussalam Cerme Gresik</h4>
+                        <!-- Bismar Darussalam Cerme Gresik -->
+                        <div class="h-64 lg:h-96 rounded-lg bg-gray-200 flex justify-center items-center font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105 md:col-start-3 lg:col-start-2 lg:col-span-2" data-aos="fade-up" data-aos-delay="200">
+                            <img src="https://i.ibb.co.com/wdq0tW9/darussalam-bismar.jpg" alt="bismar-darussalam-cerme-gresik" class="absolute duration-300 w-full h-full group-hover:scale-110 group-hover:opacity-20" border="0">
+                            <div class="hidden absolute text-lg duration-300 text-gray-800 group-hover:block">
+                                    <h4 class="text-2xl py-3 text-gray-700 text-center">Bismar Darussalam Cerme Gresik</h4>
 
-                                <div class="flex justify-center">
-                                    <!-- map -->
-                                    <a href="https://maps.app.goo.gl/cAbuyjRF7ERguD9Q7" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
+                                    <div class="flex justify-center">
+                                        <!-- map -->
+                                        <a href="https://maps.app.goo.gl/cAbuyjRF7ERguD9Q7" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
 
-                                    <!-- instagram -->
-                                    <a href="https://www.instagram.com/darbis.comp?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                            <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>
-                                    
-                                    <!-- facebook -->
-                                    <a href="https://www.facebook.com/profile.php?id=61557138524368" target="_blank">
-                                        <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                            <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
-                                        </svg>
-                                    </a>                                  
+                                        <!-- instagram -->
+                                        <a href="https://www.instagram.com/darbis.comp?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                                <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>
+                                        
+                                        <!-- facebook -->
+                                        <a href="https://www.facebook.com/profile.php?id=61557138524368" target="_blank">
+                                            <svg class="w-[48px] h-[48px] text-gray-700 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                                <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </a>                                  
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                </div>              
-            </div>
-        </section>
-    <!-- our retail store section end -->
+                    </div>              
+                </div>
+            </section>
+        <!-- our retail store section end -->
 
     <!-- our team section start -->
         <section id="our_team" class="bg-gray-50 p-10 overflow-hidden">
-            <h2 class="py-10 capitalize font-extrabold text-4xl text-center lg:text-5xl text-rose-600" data-aos="fade-up" data-aos-delay="200">our team</h2>
+            <h2 class="py-10 capitalize font-extrabold text-4xl text-center lg:text-5xl text-rose-600" data-aos="fade-up" data-aos-delay="200">team</h2>
             <div class="grid grid-cols-1 gap-4 transition-all sm:grid-cols-2 md:grid-cols-3 md:gap-5 lg:grid-cols-3 lg:gap-6">
                 <!-- hrd -->
                 <div class="h-64 rounded-lg bg-gray-600 font-bold text-lg relative duration-500 overflow-hidden group hover:scale-105" data-aos="zoom-in" data-aos-delay="200">
@@ -1030,72 +1028,120 @@
     <!-- contact section end -->
 
     <!-- footer section start -->
-        <footer class="bg-white rounded-lg shadow sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 dark:bg-gray-800 antialiased border-t-2">
-            <p class="mb-4 text-sm text-center text-gray-700 dark:text-gray-400 sm:mb-0">
-                &copy; 2024-2028 <span class="uppercase text-rose-500 font-semibold hover:underline">pt. indo bismar</span>. All rights reserved.
+        <footer class="rounded-t-xl shadow flex flex-col sm:justify-between py-2 px-4 sm:p-6 xl:p-8 dark:bg-gray-800 antialiased border-t-2 bg-primary-600">
+            <div class="flex flex-col lg:flex-row items-center py-5 border-b">
+                <!-- maps -->
+                <div class="py-3 w-full">
+                    <div class="mapswrapper rounded-xl shadow-md"><iframe class="w-full h-48 lg:h-60 aspect-auto rounded-xl shadow-md" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=indobismar&zoom=12&maptype=roadmap"></iframe><a href="https://www.zrivo.com/minnesota-paycheck-calculator">Minnesota Paycheck Calculator</a><style>.mapswrapper{background:#fff;position:relative}.mapswrapper iframe{border:0;position:relative;z-index:2}.mapswrapper a{color:rgba(0,0,0,0);position:absolute;left:0;top:0;z-index:0}</style></div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row sm:justify-evenly sm:items-start w-full">
+                    <!-- useful links -->
+                    <div class="px-6 py-2 lg:px-0 flex flex-col items-center justify-center">
+                        <div class="flex flex-row justify-center items-center gap-2 text-center text-md font-extrabold text-gray-100 uppercase py-2" style="text-shadow: rgb(85, 85, 85) 2px 2px 5px;"">
+                            <i class="fa-solid fa-lg fas fa-bars-staggered"></i>
+                            <h4 class="text-lg">Useful Links</h4>
+                        </div>
+                        <ul class="text-center text-md text-gray-200 font-semibold space-y-2">
+                            <li class="hover:text-gray-800">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="hover:text-gray-800">
+                                <a href="#">About</a>
+                            </li>
+                            <li class="hover:text-gray-800">
+                                <a href="#">Service</a>
+                            </li>
+                            <li class="hover:text-gray-800">
+                                <a href="#">Team</a>
+                            </li>
+                            <li class="hover:text-gray-800">
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- contact us -->
+                    <div class="px-6 py-2 lg:px-0 flex flex-col items-center justify-center">
+                        <div class="flex flex-row justify-center items-center gap-2 text-center text-md font-extrabold text-gray-100 uppercase py-2" style="text-shadow: rgb(85, 85, 85) 2px 2px 5px;"">
+                            <i class="fa-solid fa-lg fas fa-bars-staggered"></i>
+                            <h4 class="text-lg">Contact Us</h4>
+                        </div>
+                        <div class="flex gap-3 sm:flex-col">
+                            <!-- facebook -->
+                            <a href="https://www.instagram.com/indobismar/?hl=id" target="_blank" data-tooltip-target="tooltip-facebook" class="inline-flex justify-center p-2 text-gray-300 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-primary-500 hover:bg-gray-100 dark:hover:bg-gray-600 group">
+                                <div class="px-2">
+                                    <i class="fa-solid fa-xl fab fa-facebook"></i>
+                                </div>
+                                <p class="hidden sm:inline text-inherit font-semibold">Facebook</p>
+                                <span class="sr-only">Facebook</span>
+                                <div id="tooltip-facebook" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700 sm:hidden">
+                                    Follow us on Facebook
+                                    <div class="tooltip-arrow" data-popper-arrow></div>
+                                </div>
+                            </a>
+            
+                            <!-- instagram -->
+                            <a href="https://www.instagram.com/indobismar/?hl=id" target="_blank" data-tooltip-target="tooltip-instagram" class="inline-flex justify-center p-2 text-gray-300 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-primary-500 hover:bg-gray-100 dark:hover:bg-gray-600">
+                                <div class="px-2">
+                                    <i class="fa-solid fa-xl fab fa-instagram"></i>
+                                </div>
+                                <p class="hidden sm:inline text-inherit font-semibold">Instagram</p>
+                                <span class="sr-only">Instagram</span>
+                                <div id="tooltip-instagram" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700 sm:hidden">
+                                    Follow us on Instagram
+                                    <div class="tooltip-arrow" data-popper-arrow></div>
+                                </div>
+                            </a>
+            
+                            <!-- youtube -->
+                            <a href="https://www.youtube.com/@PTINDOBISMARGROUP" target="_blank" data-tooltip-target="tooltip-youtube" class="inline-flex justify-center p-2 text-gray-300 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-primary-500 hover:bg-gray-100 dark:hover:bg-gray-600">
+                                <div class="px-2">
+                                    <i class="fa-solid fa-xl fab fa-youtube"></i>
+                                </div>            
+                                <p class="hidden sm:inline text-inherit font-semibold">YouTube</p>
+                                <span class="sr-only">YouTube</span>
+                                <div id="tooltip-youtube" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700 sm:hidden">
+                                    Follow us on YouTube
+                                    <div class="tooltip-arrow" data-popper-arrow></div>
+                                </div>
+                            </a>
+            
+                            <!-- tiktok -->
+                            <a href="https://www.tiktok.com/@officialindobismar" target="_blank" data-tooltip-target="tooltip-tiktok" class="inline-flex justify-center p-2 text-gray-300 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-primary-500 hover:bg-gray-100 dark:hover:bg-gray-600">
+                                <div class="px-2">
+                                    <i class="fa-solid fa-xl fab fa-tiktok"></i>
+                                </div>          
+                                <p class="hidden sm:inline text-inherit font-semibold">Tik-Tok</p>
+                                <span class="sr-only">TikTok</span>
+                                <div id="tooltip-tiktok" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700 sm:hidden">
+                                    Follow us on TikTok
+                                    <div class="tooltip-arrow" data-popper-arrow></div>
+                                </div>
+                            </a>
+            
+                            <!-- whatsapp -->
+                            <a href="https://wa.me/6283145319592" target="_blank" data-tooltip-target="tooltip-whatsapp" class="inline-flex justify-center p-2 text-gray-300 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-primary-500 hover:bg-gray-100 dark:hover:bg-gray-600">
+                                <div class="px-2">
+                                    <i class="fa-solid fa-xl fab fa-whatsapp"></i>
+                                </div>
+                                <p class="hidden sm:inline text-inherit font-semibold">WhatsApp</p>
+                                <span class="sr-only">WhatsApp</span>
+                                <div id="tooltip-whatsapp" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700 sm:hidden">
+                                    Contact us on WhatsApp
+                                    <div class="tooltip-arrow" data-popper-arrow></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- e-commerce -->
+                    <div></div>
+                </div>
+            </div>
+            <p class="m-4 text-sm text-center text-gray-900 dark:text-gray-400 sm:mb-0">
+                &copy; 2024-2028 <span class="uppercase text-gray-300 font-bold text-md">pt. indo bismar</span>. All rights reserved.
             </p>
-            <div class="flex justify-center items-center space-x-1">
-
-            <!-- facebook -->
-            <a href="https://www.instagram.com/indobismar/?hl=id" target="_blank" data-tooltip-target="tooltip-facebook" class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-primary-500 hover:bg-gray-100 dark:hover:bg-gray-600">
-                <div class="">
-                    <i class="fa-solid fa-lg fab fa-facebook"></i>
-                </div>
-                <span class="sr-only">Facebook</span>
-                <div id="tooltip-facebook" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700">
-                    Follow us on Facebook
-                    <div class="tooltip-arrow" data-popper-arrow></div>
-                </div>
-            </a>
-
-            <!-- instagram -->
-            <a href="https://www.instagram.com/indobismar/?hl=id" target="_blank" data-tooltip-target="tooltip-instagram" class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-primary-500 hover:bg-gray-100 dark:hover:bg-gray-600">
-                <div class="">
-                    <i class="fa-solid fa-lg fab fa-instagram"></i>
-                </div>
-                <span class="sr-only">Instagram</span>
-                <div id="tooltip-instagram" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700">
-                    Follow us on Instagram
-                    <div class="tooltip-arrow" data-popper-arrow></div>
-                </div>
-            </a>
-
-            <!-- youtube -->
-            <a href="https://www.youtube.com/@PTINDOBISMARGROUP" target="_blank" data-tooltip-target="tooltip-youtube" class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-primary-500 hover:bg-gray-100 dark:hover:bg-gray-600">
-                <div class="">
-                    <i class="fa-solid fa-lg fab fa-youtube"></i>
-                </div>            
-                <span class="sr-only">YouTube</span>
-                <div id="tooltip-youtube" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700">
-                    Follow us on YouTube
-                    <div class="tooltip-arrow" data-popper-arrow></div>
-                </div>
-            </a>
-
-            <!-- tiktok -->
-            <a href="https://www.tiktok.com/@officialindobismar" target="_blank" data-tooltip-target="tooltip-tiktok" class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-primary-500 hover:bg-gray-100 dark:hover:bg-gray-600">
-                <div class="">
-                    <i class="fa-solid fa-lg fab fa-tiktok"></i>
-                </div>          
-                <span class="sr-only">TikTok</span>
-                <div id="tooltip-tiktok" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700">
-                    Follow us on TikTok
-                    <div class="tooltip-arrow" data-popper-arrow></div>
-                </div>
-            </a>
-
-            <!-- whatsapp -->
-            <a href="https://wa.me/6283145319592" target="_blank" data-tooltip-target="tooltip-whatsapp" class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-primary-500 hover:bg-gray-100 dark:hover:bg-gray-600">
-                <div class="">
-                    <i class="fa-solid fa-lg fab fa-whatsapp"></i>
-                </div>
-                <span class="sr-only">WhatsApp</span>
-                <div id="tooltip-whatsapp" role="tooltip" class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700">
-                    Contact us on WhatsApp
-                    <div class="tooltip-arrow" data-popper-arrow></div>
-                </div>
-            </a>
-        </div>
         </footer>
     <!-- footer section end -->
 
