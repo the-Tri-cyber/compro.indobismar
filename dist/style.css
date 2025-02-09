@@ -1,0 +1,14 @@
+.yt-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.yt-container {
+    position: relative;
+    padding-top: 56.25%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
